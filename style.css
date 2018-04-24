@@ -1,0 +1,13 @@
+body {
+    background-color: #abcdef;
+}
+
+h1 h2 {
+    font-family:verdana; 
+    border:2px solid DodgerBlue;
+}
+
+p {  
+    font-family:verdana;
+    background-color:#7bace3;
+}
