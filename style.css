@@ -1,0 +1,58 @@
+body {
+    background-color: pink;
+}
+
+h1, h3 {
+    font-family: verdana;
+    color: white;
+}
+
+p {
+    font-family: verdana;
+}
+
+a {
+  text-decoration:none;
+  color: purple;
+}
+
+ /* TOP MENU */
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.nav-wrapper {
+  width: 100%;
+  background: #999;
+  position: fixed;
+  top: 0;
+}
+
+.nav-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-menu li {
+  display: inline;
+  list-style-type: none;
+}
+
+.nav-menu ul li:hover > ul {
+  display: inline-block;
+}
+
+.dropdown > ul > li:after {
+  content: "\25BC";
+  font-size: .5em;
+  display: inline;
+}
+
+.sub-menu {
+  position: absolute;
+  display: none;
+  background: #ccc;
+}
+
+/* END OF MENU */
