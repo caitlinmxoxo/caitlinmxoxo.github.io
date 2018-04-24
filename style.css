@@ -3,10 +3,17 @@ body {
     font-family:verdana;
 }
 
-h1 {   
+h1 { 
+    font-family:verdana;
+    border:2px solid DodgerBlue;
+}
+
+h2 { 
+    font-family:verdana;
     border:2px solid DodgerBlue;
 }
 
 p {  
+    font-family:verdana;
     background-color:#7bace3;
 }
